@@ -1,0 +1,16 @@
+# Power BI & Excel
+*.pbix~
+*.xlsx~
+*.tmp
+*.bak
+*.DS_Store
+
+# System files
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# VS Code settings (optional)
+.vscode/
