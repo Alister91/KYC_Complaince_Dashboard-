@@ -3,10 +3,13 @@
 A Power BI dashboard solution for validating KYC data, monitoring compliance, and supporting audit readiness.
 
 ## 📊 Features
-- Validation rule engine (DOB, Email, KYC Status, Nationality Code)
-- KPI tracking and severity breakdown
-- Incremental refresh using RangeStart/RangeEnd
-- Export interface and user guide
+- **Validation Engine**: Applies rule logic to fields like DOB, Email, KYC Status, and Nationality Code
+- **Star Schema Model**: Central fact table with dimension tables for Clients and Rules
+- **Incremental Refresh**: Uses RangeStart/RangeEnd parameters to load only new or changed records
+- **Audit Tracker**: Captures validation events and client-level audit history
+- **Export Interface**: Enables filtered data export for compliance teams
+- **Documentation Package**: Includes ERD, SOPs, diagrams, and a full PDF snapshot of the dashboard
+
 
 ## 📁 Structure
 - `dashboard/` – Power BI report and screenshots
@@ -21,3 +24,6 @@ A Power BI dashboard solution for validating KYC data, monitoring compliance, an
 
 ## 📄 License
 MIT License
+# 🛡️ KYC Compliance Dashboard
+
+
